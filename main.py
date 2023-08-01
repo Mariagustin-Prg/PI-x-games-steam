@@ -7,7 +7,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def initial(p:int):
+def initial():
     return "Welcome!"
 
 
