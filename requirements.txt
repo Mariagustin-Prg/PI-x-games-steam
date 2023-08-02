@@ -2,5 +2,5 @@ fastapi
 pandas
 numpy
 scikit-learn
-ast
-itertools
+matplotlib
+seaborn
