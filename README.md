@@ -5,7 +5,7 @@ Este repositorio contiene un proyecto que utiliza FastAPI para construir una API
 ## Contenido
 
 - [Descripción](#descripción)
-- [Deploy](#Deploy)
+- [Deploy](#deploy)
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Uso](#uso)
