@@ -5,6 +5,7 @@ Este repositorio contiene un proyecto que utiliza FastAPI para construir una API
 ## Contenido
 
 - [Descripción](#descripción)
+- [Deploy](#Deploy)
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Uso](#uso)
@@ -16,6 +17,9 @@ Este repositorio contiene un proyecto que utiliza FastAPI para construir una API
 ## Descripción
 
 Este proyecto utiliza FastAPI para crear una API que brinda información sobre géneros de juegos, detalles de juegos, acceso anticipado, especificaciones, puntuación de metascore y análisis de sentimientos. Además, se ha entrenado un modelo de predicción de precios que utiliza estas características para predecir el precio de un juego.
+
+## Deploy
+Acceso al deploy de este repositorio en render: [Link a Render](https://steam-games-information.onrender.com/)
 
 ## Requisitos
 
