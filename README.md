@@ -20,10 +20,10 @@ Este proyecto utiliza FastAPI para crear una API que brinda información sobre g
 
 - Python 3.x
 - FastAPI
-- pandas
-- funciones personalizadas (genres, juegos, early_access, specs, metascore, sentiment)
-- modelo entrenado (predict_price)
-- scikit-learn
+- Pandas
+- Funciones personalizadas (genres, juegos, early_access, specs, metascore, sentiment)
+- Modelo entrenado (predict_price)
+- Scikit-learn
 
 ## Instalación
 
@@ -67,7 +67,7 @@ generos_2000 = genres("2000")
 print(generos_2000)
 ```
 
-`juegos(año)`
+### `juegos(año)`
 Esta función toma un año como entrada y devuelve una lista de los títulos de los videojuegos lanzados en ese año, que están presentes en el archivo 'genres.csv'.
 
 ```python
@@ -75,36 +75,40 @@ Esta función toma un año como entrada y devuelve una lista de los títulos de 
 juegos_2021 = juegos('2021')
 print(juegos_2021)
 ```
-specs(año)
+
+### specs(año)
 Esta función toma un año como entrada y devuelve un diccionario con las cinco especificaciones más comunes de los videojuegos lanzados en ese año, que se encuentran presentes en el archivo 'specs.csv'.
 
 ```python
-
 # Ejemplo de uso
 especificaciones_1998 = specs(1998)
 print(especificaciones_1998)
-early_access(año)
-Esta función toma un año como entrada y devuelve un diccionario con la cantidad de videojuegos con acceso anticipado lanzados en ese año, según la información proporcionada en el archivo 'early_access.csv'.
 ```
 
-```python
+### `early_access(año)`
+Esta función toma un año como entrada y devuelve un diccionario con la cantidad de videojuegos con acceso anticipado lanzados en ese año, según la información proporcionada en el archivo 'early_access.csv'.
 
+```python
 # Ejemplo de uso
 acceso_anticipado_2010 = early_access(2010)
 print(acceso_anticipado_2010)
-sentiment(año)
+```
+
+### `sentiment(año)`
 Esta función toma un año como entrada y devuelve un diccionario con los cinco sentimientos más comunes asociados a los videojuegos lanzados en ese año, según la información proporcionada en el archivo 'sentiments.csv'.
 ```
-```python
 
+```python
 # Ejemplo de uso
 sentimientos_1996 = sentiment(1996)
 print(sentimientos_1996)
-metascore(año)
-Esta función toma un año como entrada y devuelve un diccionario con los títulos de los videojuegos lanzados en ese año, junto con su puntaje de Metascore más alto, según la información proporcionada en el archivo 'metascore.csv'.
 ```
-```python
 
+### `metascore(año)`
+Esta función toma un año como entrada y devuelve un diccionario con los títulos de los videojuegos lanzados en ese año, junto con su puntaje de Metascore más alto, según la información proporcionada en el archivo 
+'metascore.csv'.
+
+```python
 # Ejemplo de uso
 puntajes_metascore_2012 = metascore(2012)
 print(puntajes_metascore_2012)
