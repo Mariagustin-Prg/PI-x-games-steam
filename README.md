@@ -9,8 +9,9 @@ Este repositorio contiene un proyecto que utiliza FastAPI para construir una API
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Rutas](#rutas)
+- [Funciones](#funciones-personalizadas)
 - [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+
 
 ## Descripción
 
