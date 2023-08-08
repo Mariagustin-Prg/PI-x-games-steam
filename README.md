@@ -119,6 +119,27 @@ puntajes_metascore_2012 = metascore(2012)
 print(puntajes_metascore_2012)
 ```
 
+## Modelo de predicción
+La forma de uso del modelo de predicción en la API es la siguiente: 
+  La función espera cuatro parámetros: Género/s, Metascore, Etiqueta/s y Acceso anticipado.
+  La forma correcta de pasar los parámetros a la función, si es que se le pasan todo los paráremtros, a los géneros y las etiquetas se los pase de la siguiente manera:
+  ```
+  "Action | Adventure"
+  "Indie"
+  "Racing | Sports | Free to Play"
+  ```
+  Mientras que para el parámetro del metascore, se deberá pasar un número. 
+  ```
+  90
+  80
+  78
+  ```
+  Y al parámetro de Acceso anticipado `(early_access)` se le debe dar un valor booleano. En caso de no determinar un valor, la función considera como False el parámetro.
+  ```
+  True
+  False
+  ```
+
 ## Contribuciones
 Contribuciones y mejoras son bienvenidas. Si deseas contribuir, realiza los siguientes pasos:
 
