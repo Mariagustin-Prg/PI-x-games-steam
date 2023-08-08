@@ -38,3 +38,15 @@ def Sentimientos(anio: str):
 @app.get("/metascore/{anio}")
 def metascore_puntuación(anio: str):
     return metascore(anio)
+
+
+from model_trained import predict_price
+@app.get("/prediction_model/{generos}/{metascore}/{tags}/{access_e}")
+def prediction_model(generos= None, metascore=None, tags= None, acces_e=False):
+    if generos is not None:
+        f_genres = generos
+    if metascore is not None:
+        f_meta = metascore
+    if tags is not None:
+        f_tags = tags
+    return predict_price(f_genres, f_meta, f_tags, acces_e)
