@@ -1,4 +1,4 @@
-# FastAPI Proyecto - Documentación
+# Proyecto de regresión de precios - Documentación
 
 Este repositorio contiene un proyecto que utiliza FastAPI para construir una API que proporciona información sobre juegos y predicciones de precios. A continuación se detallan las rutas disponibles y su funcionalidad.
 
@@ -96,7 +96,7 @@ print(acceso_anticipado_2010)
 
 ### `sentiment(año)`
 Esta función toma un año como entrada y devuelve un diccionario con los cinco sentimientos más comunes asociados a los videojuegos lanzados en ese año, según la información proporcionada en el archivo 'sentiments.csv'.
-```
+
 
 ```python
 # Ejemplo de uso
